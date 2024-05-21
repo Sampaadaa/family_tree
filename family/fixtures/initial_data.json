@@ -1,0 +1,110 @@
+[
+    {
+        "model": "family.person",
+        "pk": 1,
+        "fields": {
+            "first_name": "Ram",
+            "last_name": "",
+            "birth_date": null,
+            "death_date": null
+        }
+    },
+    {
+        "model": "family.person",
+        "pk": 2,
+        "fields": {
+            "first_name": "Hari",
+            "last_name": "",
+            "birth_date": null,
+            "death_date": null
+        }
+    },
+    {
+        "model": "family.person",
+        "pk": 3,
+        "fields": {
+            "first_name": "Sita",
+            "last_name": "",
+            "birth_date": null,
+            "death_date": null
+        }
+    },
+    {
+        "model": "family.person",
+        "pk": 4,
+        "fields": {
+            "first_name": "Asd",
+            "last_name": "",
+            "birth_date": null,
+            "death_date": null
+        }
+    },
+    {
+        "model": "family.person",
+        "pk": 5,
+        "fields": {
+            "first_name": "Def",
+            "last_name": "",
+            "birth_date": null,
+            "death_date": null
+        }
+    },
+    {
+        "model": "family.person",
+        "pk": 6,
+        "fields": {
+            "first_name": "Gita",
+            "last_name": "",
+            "birth_date": null,
+            "death_date": null
+        }
+    },
+    {
+        "model": "family.relationship",
+        "pk": 1,
+        "fields": {
+            "parent": 1,
+            "child": 2
+        }
+    },
+    {
+        "model": "family.relationship",
+        "pk": 2,
+        "fields": {
+            "parent": 1,
+            "child": 3
+        }
+    },
+    {
+        "model": "family.relationship",
+        "pk": 3,
+        "fields": {
+            "parent": 2,
+            "child": 4
+        }
+    },
+    {
+        "model": "family.relationship",
+        "pk": 4,
+        "fields": {
+            "parent": 2,
+            "child": 5
+        }
+    },
+    {
+        "model": "family.relationship",
+        "pk": 5,
+        "fields": {
+            "parent": 6,
+            "child": 4
+        }
+    },
+    {
+        "model": "family.relationship",
+        "pk": 6,
+        "fields": {
+            "parent": 6,
+            "child": 5
+        }
+    }
+]
